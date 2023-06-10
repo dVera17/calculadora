@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+
+button, input[type="submit"]{
+    height: 2rem;
+    width: 2rem;
+    margin: .5rem;
+}
+
+input[type="text"]{
+    height: 2rem;
+    font-size: 1.5rem;
+    width: 13rem;
+}
+
+input[name="calcular"]{
+    width: 5rem;
+}
